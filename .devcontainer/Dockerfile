@@ -1,17 +1,13 @@
-ARG VARIANT="8"
-FROM node:${VARIANT}-alpine
-# app ÂêçÁ®±
+# ARG VARIANT="8"
+# FROM node:${VARIANT}-alpine
+# app ¶W∫Ÿ
 # ENV APP_NAME=app
 # WORKDIR /usr/src/${APP_NAME}
 
-# COPY . .
-RUN npm install
-
-# CMD [ "npm", "start" ]
-
-# See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.134.0/containers/javascript-node/.devcontainer/base.Dockerfile
-# ARG VARIANT="14"
+# [Choice] Node.js version: 14, 12, 10
+# ARG VARIANT="14-buster"
 # FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-${VARIANT}
+FROM node:14.3.0
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
