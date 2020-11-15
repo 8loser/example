@@ -17,7 +17,9 @@
     "hookyqr.beautify",
     "eamodio.gitlens",
     "esbenp.prettier-vscode",
-    "mohsen1.prettify-json"
+    "mohsen1.prettify-json",
+    "gruntfuggly.todo-tree",
+    "wayou.vscode-todo-highlight"
   ],
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
